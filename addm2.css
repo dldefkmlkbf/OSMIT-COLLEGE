@@ -1,0 +1,35 @@
+#admission-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#admission-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#admission-form input,
+#admission-form select,
+#admission-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#admission-form button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#admission-form button:hover {
+    background-color: #555;
+}
